@@ -1,0 +1,33 @@
+body{
+  background: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+table{
+  margin: 0 auto;
+}
+
+.table-div{
+  width:80%;
+  height:500px;
+  overflow-y: auto;
+  margin:0 auto;
+}
+[type=button]{
+  cursor: pointer;
+}
+.indication{
+  padding-top: 30px;
+  width: 150px;
+  margin: 0 auto; 
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>WIKI</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1 class="text-center">WIKI</h1>
+    <form autocomplete="off">
+      <label for="search">Enter a word for wiki information</label>
+      <input type="text" name="search">
+      <input type="button" name="submitvalue" value="Search">
+    </form>
+
+    <div class="table-div">
+      <p class="indication">Loading data...</p>
+      <table>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="scripts/wiki.js"></script>
+  <script src="scripts/controller.js"></script>
+
+</body>
+
+</html>
